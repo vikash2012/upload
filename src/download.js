@@ -10,8 +10,8 @@ const app=express();
 app.listen(3001);
 
 
-var AWS_KEY = 'AKIA2GSKIDNT2CWRSZTR'
-var AWS_SECRET = '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';
+var AWS_KEY = ''
+var AWS_SECRET = '';
 var BUCKET = 'cypher-storage';
 var PREFIX = 'https://cipher-storage.s3.amazonaws.com/data/';
 
